@@ -1,0 +1,11 @@
+{
+  "name": "try-postcss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tyankatsu0105/try-postcss.git",
+  "author": "tyankatsu <frips.ryilsufupe+dev@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "postcss": "^7.0.14"
+  }
+}
