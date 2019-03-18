@@ -1,8 +1,7 @@
 const postcss = require('postcss');
-module.exports = postcss.plugin('myplugin', options => {
+module.exports = postcss.plugin('font-px-to-rem', options => {
 	return css => {
 		const {rootPxValue} = options || {};
-		
 		
 		css.walkRules(rule => {
 			rule.walkDecls((decl, index) => {
@@ -12,7 +11,7 @@ module.exports = postcss.plugin('myplugin', options => {
 						pxValue = pxValue / rootPxValue;
 						return `${pxValue}rem`
 					}
-					decl.value = decl.value.replace(/(\d)+px/, expect)
+					decl.value = decl.value.replace(/(\d)+px/, expect)	
 				}
 			});
 		});
