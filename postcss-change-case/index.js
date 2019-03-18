@@ -2,8 +2,8 @@ const postcss = require('postcss');
 const changeCase = require('change-case');
 module.exports = postcss.plugin('change-case', options => {
 	return css => {
-		options = options || {};
-		
+    options = options || {};
+
 		css.walkRules(rule => {
 			rule.walkDecls((decl, index) => {
         const isVenderPrefix = prop => {

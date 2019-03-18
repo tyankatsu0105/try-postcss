@@ -1,8 +1,14 @@
 p {
+  margin: '10px';
+  marginTop: '10px';
+  marginLeft: '20px';
+  paddingRight: '10px';
+  fontSmoothing: 'antialiased';
   fontSize: '20px';
+  background: 'linear-gradient(to bottom, #1e5799 0%,#7db9e8 100%)'; 
 }
 
-a{
+a {
   fontSize: '10px';
   borderTop: '1px solid #000';
   borderBottom: 'solid 10px #000';
