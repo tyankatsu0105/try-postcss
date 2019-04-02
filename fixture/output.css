@@ -1,0 +1,16 @@
+p {
+  margin: '10px';
+  marginTop: '10px';
+  marginLeft: '20px';
+  paddingRight: '10px';
+  fontSmoothing: 'antialiased';
+  fontSize: '2rem';
+  background: 'linear-gradient(to bottom, #1e5799 0%,#7db9e8 100%)'; 
+}
+
+a {
+  fontSize: '1rem';
+  borderTop: '1px solid #000';
+  borderBottom: 'solid 10px #000';
+  '-ms-progress-appearance': 'none';
+}
